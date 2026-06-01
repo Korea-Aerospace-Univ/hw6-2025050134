@@ -5,7 +5,7 @@ int main() {
     char *p = arr;
     
     for (p = arr; p < arr + 10; p++) {
-        scanf(" %c", p); 
+        scanf("%c", p); 
     }
     
     char max_char = arr[0];
