@@ -19,7 +19,7 @@ int main() {
     int *p2 = arr2 + N - 1;  
     
     for (int i = 0; i < N; i++) {
-        printf("%d", *p1 + *p2);
+        printf(" %d", *p1 + *p2);
         
         p1++;
         p2--;
